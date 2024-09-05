@@ -1,0 +1,32 @@
+{
+  "name": "nutshell-plugin-docs",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "make expandable explanations using nutshell.js",
+  "author": "jojokcreator",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.26.2",
+    "astro": "^4.15.2",
+    "sharp": "^0.33.5",
+    "nutshell-plugin": "workspace:*"
+  },
+  "engines": {
+    "node": "^18.17.1 || ^20.3.0 || >=21.0.0"
+  },
+  "private": true,
+  "homepage": "https://github.com/jojokcreator/nutshell-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jojokcreator/nutshell-plugin.git",
+    "directory": "docs"
+  },
+  "bugs": "https://github.com/jojokcreator/nutshell-plugin/issues"
+}

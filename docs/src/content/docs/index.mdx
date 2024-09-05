@@ -1,0 +1,30 @@
+---
+title: nutshell-plugin
+description: make expandable explanations using nutshell.js
+head:
+  - tag: title
+    content: nutshell-plugin
+template: splash
+editUrl: false
+hero:
+  tagline: make expandable explanations using nutshell.js
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Get Started
+      link: /getting-started/
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components'
+
+## Next steps
+
+<CardGrid stagger>
+  <Card title="Install the plugin" icon="puzzle">
+    Check the [getting started guide](/getting-started/) for installation instructions.
+  </Card>
+  <Card title="Configure the plugin" icon="setting">
+    Edit your config in the `astro.config.mjs` file.
+  </Card>
+</CardGrid>
