@@ -1,6 +1,6 @@
 {
   "name": "nutshell-plugin",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "license": "MIT",
   "description": "make expandable explanations using nutshell.js",
   "author": "jojokcreator",
@@ -8,6 +8,9 @@
   "exports": {
     ".": "./index.ts"
   },
+  "keywords": [
+    "astro-integration"
+  ],
   "devDependencies": {
     "@astrojs/starlight": "^0.26.2",
     "astro": "^4.15.2"
