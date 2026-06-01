@@ -18,5 +18,9 @@
     "type": "git",
     "url": "https://github.com/jojokcreator/nutshell-plugin.git"
   },
-  "bugs": "https://github.com/jojokcreator/nutshell-plugin/issues"
+  "bugs": "https://github.com/jojokcreator/nutshell-plugin/issues",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2"
+  }
 }
